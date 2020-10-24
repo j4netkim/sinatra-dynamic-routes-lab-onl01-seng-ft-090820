@@ -42,6 +42,7 @@ class App < Sinatra::Base
     elsif @operation == 'subtract'
       @answer = @number1 - @number2
       "#{@answer}"
+    end
   end
 
 end
