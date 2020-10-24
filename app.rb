@@ -46,7 +46,7 @@ class App < Sinatra::Base
       @answer = @number1 * @number2
       "#{@answer}"
     elsif @operation == 'divide'
-      @answer = @number1 % @number2
+      @answer = @number1 / @number2
       "#{@answer}"
     end
   end
