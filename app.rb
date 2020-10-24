@@ -18,7 +18,6 @@ class App < Sinatra::Base
     @array = []
     @number.times {@array << @phrase}
     "#{@array}"
-
   end
 
 end
